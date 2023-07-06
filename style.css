@@ -1,0 +1,81 @@
+*{  font-size: 25px;
+    margin: 0;
+    padding: 0;
+   
+
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+    background-color: rgb(205, 200, 50);
+    margin: 2px 2px 2px 2px;
+    padding: 2px 2px 2px 2px;
+    
+
+}
+
+.box{
+    height:550px;
+    width: 550px;
+    border-radius: 16px;
+    background-color: rgb(243, 241, 241);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 2px 2px 2px;
+    padding: 2px 2px 2px 2px;
+
+
+}
+.celsius
+{
+
+    margin: 2px 2px 20px 2px;
+    padding: 2px 2px 2px 2px;
+
+}
+.celsius_name{
+    
+    background-color: white;
+    margin: 2px 2px 2px 2px;
+    padding: 2px 2px 2px 2px;
+    border: none;
+}
+.farhenheit_name{
+    background-color: white;
+    margin: 2px 2px 2px 2px;
+    padding: 2px 2px 2px 2px;
+
+    border: none;
+}
+.farhenheit{
+
+    margin: 2px 2px 20px 2px;
+    padding: 2px 2px 2px 2px ;
+}
+.button{
+    margin: 14px 2px 7px 2px;
+    padding: 0px 13px 0px 13px;
+    border-radius: 9px;
+    border: 3px solid black;
+    background-color: rgb(237 219 219);
+}
+
+.button:hover{
+    cursor: pointer;
+    border: 3px solid black;
+    background-color: rgb(200, 196, 196);
+    color: rgb(22, 20, 20);
+}
+.type{
+    font-size: 20px;
+    margin: -62px 12px 79px 15px;
+    padding: 2px 2px 2px 2px;
+    border: 2px solid grey;
+    border-radius: 4px;
+    background-color: rgb(235, 230, 239);
+}
